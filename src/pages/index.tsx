@@ -1,10 +1,10 @@
-import { Box, Container } from "@material-ui/core";
+import { Box, Container, Typography } from "@material-ui/core";
 
 const Index: React.FC<{}> = () => {
   return (
     <Container>
       <Box>
-        <h1> Start Project With NextJS and Material-UI</h1>
+        <Typography variant="h2">Material Ui NextJS Template</Typography>
       </Box>
     </Container>
   );
