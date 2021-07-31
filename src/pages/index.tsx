@@ -13,7 +13,7 @@ import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Router from "next/router";
-
+import { useForm } from "react-hook-form";
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
@@ -62,7 +62,12 @@ const useStyles = makeStyles((theme) => ({
 
 const Auth: React.FC<{}> = () => {
   const classes = useStyles();
-
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+  const onSubmit = (data: any) => console.log(data);
   return (
     <Grid container component="main" className={classes.root}>
       <CssBaseline />
@@ -78,8 +83,13 @@ const Auth: React.FC<{}> = () => {
           <Typography component="h1" variant="h5">
             Entrar
           </Typography>
-          <form className={classes.form} noValidate>
+          <form
+            className={classes.form}
+            noValidate
+            onSubmit={handleSubmit(onSubmit)}
+          >
             <TextField
+              {...register("email")}
               variant="outlined"
               margin="normal"
               required
@@ -91,6 +101,7 @@ const Auth: React.FC<{}> = () => {
               autoFocus
             />
             <TextField
+              {...register("password")}
               variant="outlined"
               margin="normal"
               required
