@@ -122,7 +122,7 @@ const Auth: React.FC<{}> = () => {
               </Grid>
               <Grid item>
                 <Link href="#" variant="body2">
-                  {"Não tem uma conta? Faça o cadastro"}
+                  {"Não tem uma conta? Registre-se"}
                 </Link>
               </Grid>
             </Grid>
