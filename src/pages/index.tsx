@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import Avatar from "@material-ui/core/Avatar";
 import Button from "@material-ui/core/Button";
 import CssBaseline from "@material-ui/core/CssBaseline";
@@ -12,8 +12,9 @@ import Grid from "@material-ui/core/Grid";
 import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
-import Router from "next/router";
 import { useForm } from "react-hook-form";
+import { AuthContext } from "../contexts/AuthContext";
+
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
@@ -59,15 +60,17 @@ const useStyles = makeStyles((theme) => ({
     margin: theme.spacing(3, 0, 2),
   },
 }));
-
+type SignInRequestData = {
+  email: string;
+  password: string;
+};
 const Auth: React.FC<{}> = () => {
   const classes = useStyles();
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm();
-  const onSubmit = (data: any) => console.log(data);
+  const { signIn } = useContext(AuthContext);
+  const { register, handleSubmit } = useForm();
+  async function onSubmit(data) {
+    signIn(data);
+  }
   return (
     <Grid container component="main" className={classes.root}>
       <CssBaseline />
