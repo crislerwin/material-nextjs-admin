@@ -3,6 +3,8 @@ import { MuiThemeProvider, CssBaseline } from "@material-ui/core";
 import type { AppProps } from "next/app";
 import { theme } from "../theme";
 import { Fragment, useEffect } from "react";
+
+import { AuthProvider } from "../contexts/AuthContext";
 // import { useSelector } from "react-redux";
 // import { AppState } from "../redux/root-reducer";
 function MyApp({ Component, pageProps }: AppProps) {
@@ -31,7 +33,9 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       <MuiThemeProvider theme={theme}>
         <CssBaseline />
-        <Component {...pageProps} />
+        <AuthProvider>
+          <Component {...pageProps} />
+        </AuthProvider>
       </MuiThemeProvider>
     </Fragment>
   );
