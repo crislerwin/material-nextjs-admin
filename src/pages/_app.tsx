@@ -1,9 +1,16 @@
+import Head from "next/head";
 import { MuiThemeProvider, CssBaseline } from "@material-ui/core";
 import type { AppProps } from "next/app";
-import theme from "../theme";
-import { useEffect } from "react";
-
+import { theme } from "../theme";
+import { Fragment, useEffect } from "react";
+// import { useSelector } from "react-redux";
+// import { AppState } from "../redux/root-reducer";
 function MyApp({ Component, pageProps }: AppProps) {
+  // const { appPaletteType: paletteType } = useSelector(
+  //   (state: AppState) => state.themeMode
+  // );
+  // const themes = theming(paletteType);
+
   useEffect(() => {
     // Remove the server-side injected CSS.
     const jssStyles = document.querySelector("#jss-server-side");
@@ -11,10 +18,22 @@ function MyApp({ Component, pageProps }: AppProps) {
   }, []);
 
   return (
-    <MuiThemeProvider theme={theme}>
-      <CssBaseline />
-      <Component {...pageProps} />
-    </MuiThemeProvider>
+    <Fragment>
+      <Head>
+        {/* PWA primary color */}
+        <meta name="theme-color" content={theme.palette.primary.main} />
+        <meta
+          name="viewport"
+          content="minimum-scale=1, initial-scale=1, width=device-width"
+        />
+        <link rel="icon" href="/favicon.ico" />
+        <title>Material-Next Admin</title>
+      </Head>
+      <MuiThemeProvider theme={theme}>
+        <CssBaseline />
+        <Component {...pageProps} />
+      </MuiThemeProvider>
+    </Fragment>
   );
 }
 export default MyApp;
