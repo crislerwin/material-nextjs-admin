@@ -1,0 +1,2631 @@
+{
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NfdXVpZCI6ImMzNWNkMmRmLWQ2Y2MtNDNhMS04MjEwLTliMjI3ZTc0MDFkOCIsImF1dGhvcml6ZWQiOnRydWUsImV4cCI6MTYyNzkxNzcyMCwidXN1YXJpb19pZCI6MX0.ktblu6e4CczDNieAdsUkE-T-dp3oxQet-Wkx7lZTMLE",
+  "acesso_grupo": {
+    "id": 1,
+    "descricao": "Administrador",
+    "ativo": "S",
+    "AcessoGrupoTelas": null,
+    "AcessoGrupoFuncionalidades": null
+  },
+  "email": "administrador@farsoft.com.br",
+  "id": 1,
+  "name": "ADMINISTRADOR",
+  "pessoa": null,
+  "privilegios": {
+    "grupo_id": 1,
+    "grupo_descricao": "Administrador",
+    "grupo_ativo": "S",
+    "modulos": [
+      {
+        "modulo_id": 1,
+        "modulo_sequencia": 1,
+        "modulo_titulo": "Controle de Acesso",
+        "modulo_subtitulo": "Segurança do Sistema",
+        "modulo_descricao": "Controle de Acesso",
+        "modulo_icone": "mdi-account-group-outline",
+        "modulo_ativo": "S",
+        "telas": [
+          {
+            "tela_ativo": "S",
+            "opcao_tela_ativo": "S",
+            "tela_id": 1,
+            "tela_nome": "controledeacesso.usuarios",
+            "tela_tipo": "CRUD",
+            "tela_web_url": "/app/controledeacesso/usuarios",
+            "tela_descricao": "Usuários",
+            "tela_icone": "mdi-account-circle",
+            "funcionalidades": [
+              {
+                "tela_id": 1,
+                "funcionalidade_id": 4,
+                "funcionalidade_identificacao": "controledeacesso.usuarios.clonar",
+                "funcionalidade_descricao": "Clonar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 1,
+                "funcionalidade_id": 5,
+                "funcionalidade_identificacao": "controledeacesso.usuarios.copiar_dados",
+                "funcionalidade_descricao": "Copiar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 1,
+                "funcionalidade_id": 10,
+                "funcionalidade_identificacao": "controledeacesso.usuarios.customizar_colunas",
+                "funcionalidade_descricao": "Customizar Colunas",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 1,
+                "funcionalidade_id": 2,
+                "funcionalidade_identificacao": "controledeacesso.usuarios.editar",
+                "funcionalidade_descricao": "Editar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 1,
+                "funcionalidade_id": 3,
+                "funcionalidade_identificacao": "controledeacesso.usuarios.excluir",
+                "funcionalidade_descricao": "Excluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 1,
+                "funcionalidade_id": 8,
+                "funcionalidade_identificacao": "controledeacesso.usuarios.exportar_para_csv",
+                "funcionalidade_descricao": "Exportar p/CSV",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 1,
+                "funcionalidade_id": 7,
+                "funcionalidade_identificacao": "controledeacesso.usuarios.exportar_para_excel",
+                "funcionalidade_descricao": "Exportar p/Excel",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 1,
+                "funcionalidade_id": 6,
+                "funcionalidade_identificacao": "controledeacesso.usuarios.exportar_para_pdf",
+                "funcionalidade_descricao": "Exportar p/PDF",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 1,
+                "funcionalidade_id": 9,
+                "funcionalidade_identificacao": "controledeacesso.usuarios.imprimir_tela",
+                "funcionalidade_descricao": "Imprimir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 1,
+                "funcionalidade_id": 1,
+                "funcionalidade_identificacao": "controledeacesso.usuarios.incluir",
+                "funcionalidade_descricao": "Incluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              }
+            ]
+          },
+          {
+            "tela_ativo": "S",
+            "opcao_tela_ativo": "S",
+            "tela_id": 2,
+            "tela_nome": "controledeacesso.gruposdeacesso",
+            "tela_tipo": "CRUD",
+            "tela_web_url": "/app/controledeacesso/gruposdeacesso",
+            "tela_descricao": "Grupos de Acesso",
+            "tela_icone": "mdi-account-multiple",
+            "funcionalidades": [
+              {
+                "tela_id": 2,
+                "funcionalidade_id": 14,
+                "funcionalidade_identificacao": "controledeacesso.gruposdeacesso.clonar",
+                "funcionalidade_descricao": "Clonar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 2,
+                "funcionalidade_id": 15,
+                "funcionalidade_identificacao": "controledeacesso.gruposdeacesso.copiar_dados",
+                "funcionalidade_descricao": "Copiar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 2,
+                "funcionalidade_id": 20,
+                "funcionalidade_identificacao": "controledeacesso.gruposdeacesso.customizar_colunas",
+                "funcionalidade_descricao": "Customizar Colunas",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 2,
+                "funcionalidade_id": 12,
+                "funcionalidade_identificacao": "controledeacesso.gruposdeacesso.editar",
+                "funcionalidade_descricao": "Editar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 2,
+                "funcionalidade_id": 13,
+                "funcionalidade_identificacao": "controledeacesso.gruposdeacesso.excluir",
+                "funcionalidade_descricao": "Excluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 2,
+                "funcionalidade_id": 18,
+                "funcionalidade_identificacao": "controledeacesso.gruposdeacesso.exportar_para_csv",
+                "funcionalidade_descricao": "Exportar p/CSV",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 2,
+                "funcionalidade_id": 17,
+                "funcionalidade_identificacao": "controledeacesso.gruposdeacesso.exportar_para_excel",
+                "funcionalidade_descricao": "Exportar p/Excel",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 2,
+                "funcionalidade_id": 16,
+                "funcionalidade_identificacao": "controledeacesso.gruposdeacesso.exportar_para_pdf",
+                "funcionalidade_descricao": "Exportar p/PDF",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 2,
+                "funcionalidade_id": 19,
+                "funcionalidade_identificacao": "controledeacesso.gruposdeacesso.imprimir_tela",
+                "funcionalidade_descricao": "Imprimir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 2,
+                "funcionalidade_id": 11,
+                "funcionalidade_identificacao": "controledeacesso.gruposdeacesso.incluir",
+                "funcionalidade_descricao": "Incluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              }
+            ]
+          },
+          {
+            "tela_ativo": "S",
+            "opcao_tela_ativo": "S",
+            "tela_id": 3,
+            "tela_nome": "controledeacesso.modulosdeacesso",
+            "tela_tipo": "CRUD",
+            "tela_web_url": "/app/controledeacesso/modulosdeacesso",
+            "tela_descricao": "Modulos de Acesso",
+            "tela_icone": "mdi-package-variant",
+            "funcionalidades": [
+              {
+                "tela_id": 3,
+                "funcionalidade_id": 24,
+                "funcionalidade_identificacao": "controledeacesso.modulosdeacesso.clonar",
+                "funcionalidade_descricao": "Clonar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 3,
+                "funcionalidade_id": 25,
+                "funcionalidade_identificacao": "controledeacesso.modulosdeacesso.copiar_dados",
+                "funcionalidade_descricao": "Copiar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 3,
+                "funcionalidade_id": 30,
+                "funcionalidade_identificacao": "controledeacesso.modulosdeacesso.customizar_colunas",
+                "funcionalidade_descricao": "Customizar Colunas",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 3,
+                "funcionalidade_id": 22,
+                "funcionalidade_identificacao": "controledeacesso.modulosdeacesso.editar",
+                "funcionalidade_descricao": "Editar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 3,
+                "funcionalidade_id": 23,
+                "funcionalidade_identificacao": "controledeacesso.modulosdeacesso.excluir",
+                "funcionalidade_descricao": "Excluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 3,
+                "funcionalidade_id": 28,
+                "funcionalidade_identificacao": "controledeacesso.modulosdeacesso.exportar_para_csv",
+                "funcionalidade_descricao": "Exportar p/CSV",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 3,
+                "funcionalidade_id": 27,
+                "funcionalidade_identificacao": "controledeacesso.modulosdeacesso.exportar_para_excel",
+                "funcionalidade_descricao": "Exportar p/Excel",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 3,
+                "funcionalidade_id": 26,
+                "funcionalidade_identificacao": "controledeacesso.modulosdeacesso.exportar_para_pdf",
+                "funcionalidade_descricao": "Exportar p/PDF",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 3,
+                "funcionalidade_id": 29,
+                "funcionalidade_identificacao": "controledeacesso.modulosdeacesso.imprimir_tela",
+                "funcionalidade_descricao": "Imprimir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 3,
+                "funcionalidade_id": 21,
+                "funcionalidade_identificacao": "controledeacesso.modulosdeacesso.incluir",
+                "funcionalidade_descricao": "Incluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              }
+            ]
+          },
+          {
+            "tela_ativo": "S",
+            "opcao_tela_ativo": "S",
+            "tela_id": 4,
+            "tela_nome": "controledeacesso.telasdosistema",
+            "tela_tipo": "CRUD",
+            "tela_web_url": "/app/controledeacesso/telasdosistema",
+            "tela_descricao": "Telas do Sistema",
+            "tela_icone": "mdi-television-guide",
+            "funcionalidades": [
+              {
+                "tela_id": 4,
+                "funcionalidade_id": 34,
+                "funcionalidade_identificacao": "controledeacesso.telasdosistema.clonar",
+                "funcionalidade_descricao": "Clonar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 4,
+                "funcionalidade_id": 35,
+                "funcionalidade_identificacao": "controledeacesso.telasdosistema.copiar_dados",
+                "funcionalidade_descricao": "Copiar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 4,
+                "funcionalidade_id": 40,
+                "funcionalidade_identificacao": "controledeacesso.telasdosistema.customizar_colunas",
+                "funcionalidade_descricao": "Customizar Colunas",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 4,
+                "funcionalidade_id": 32,
+                "funcionalidade_identificacao": "controledeacesso.telasdosistema.editar",
+                "funcionalidade_descricao": "Editar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 4,
+                "funcionalidade_id": 33,
+                "funcionalidade_identificacao": "controledeacesso.telasdosistema.excluir",
+                "funcionalidade_descricao": "Excluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 4,
+                "funcionalidade_id": 38,
+                "funcionalidade_identificacao": "controledeacesso.telasdosistema.exportar_para_csv",
+                "funcionalidade_descricao": "Exportar p/CSV",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 4,
+                "funcionalidade_id": 37,
+                "funcionalidade_identificacao": "controledeacesso.telasdosistema.exportar_para_excel",
+                "funcionalidade_descricao": "Exportar p/Excel",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 4,
+                "funcionalidade_id": 36,
+                "funcionalidade_identificacao": "controledeacesso.telasdosistema.exportar_para_pdf",
+                "funcionalidade_descricao": "Exportar p/PDF",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 4,
+                "funcionalidade_id": 39,
+                "funcionalidade_identificacao": "controledeacesso.telasdosistema.imprimir_tela",
+                "funcionalidade_descricao": "Imprimir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 4,
+                "funcionalidade_id": 31,
+                "funcionalidade_identificacao": "controledeacesso.telasdosistema.incluir",
+                "funcionalidade_descricao": "Incluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              }
+            ]
+          },
+          {
+            "tela_ativo": "S",
+            "opcao_tela_ativo": "S",
+            "tela_id": 5,
+            "tela_nome": "controledeacesso.dispositivos",
+            "tela_tipo": "CRUD",
+            "tela_web_url": "/app/controledeacesso/dispositivos",
+            "tela_descricao": "Dispositivos",
+            "tela_icone": "mdi-cellphone-link",
+            "funcionalidades": [
+              {
+                "tela_id": 5,
+                "funcionalidade_id": 44,
+                "funcionalidade_identificacao": "controledeacesso.dispositivos.clonar",
+                "funcionalidade_descricao": "Clonar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 5,
+                "funcionalidade_id": 45,
+                "funcionalidade_identificacao": "controledeacesso.dispositivos.copiar_dados",
+                "funcionalidade_descricao": "Copiar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 5,
+                "funcionalidade_id": 50,
+                "funcionalidade_identificacao": "controledeacesso.dispositivos.customizar_colunas",
+                "funcionalidade_descricao": "Customizar Colunas",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 5,
+                "funcionalidade_id": 42,
+                "funcionalidade_identificacao": "controledeacesso.dispositivos.editar",
+                "funcionalidade_descricao": "Editar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 5,
+                "funcionalidade_id": 43,
+                "funcionalidade_identificacao": "controledeacesso.dispositivos.excluir",
+                "funcionalidade_descricao": "Excluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 5,
+                "funcionalidade_id": 48,
+                "funcionalidade_identificacao": "controledeacesso.dispositivos.exportar_para_csv",
+                "funcionalidade_descricao": "Exportar p/CSV",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 5,
+                "funcionalidade_id": 47,
+                "funcionalidade_identificacao": "controledeacesso.dispositivos.exportar_para_excel",
+                "funcionalidade_descricao": "Exportar p/Excel",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 5,
+                "funcionalidade_id": 46,
+                "funcionalidade_identificacao": "controledeacesso.dispositivos.exportar_para_pdf",
+                "funcionalidade_descricao": "Exportar p/PDF",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 5,
+                "funcionalidade_id": 49,
+                "funcionalidade_identificacao": "controledeacesso.dispositivos.imprimir_tela",
+                "funcionalidade_descricao": "Imprimir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 5,
+                "funcionalidade_id": 41,
+                "funcionalidade_identificacao": "controledeacesso.dispositivos.incluir",
+                "funcionalidade_descricao": "Incluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "modulo_id": 3,
+        "modulo_sequencia": 3,
+        "modulo_titulo": "Ecommerce",
+        "modulo_subtitulo": "Máquina de Vendas",
+        "modulo_descricao": "Ecommerce",
+        "modulo_icone": "mdi-cart",
+        "modulo_ativo": "S",
+        "telas": [
+          {
+            "tela_ativo": "S",
+            "opcao_tela_ativo": "S",
+            "tela_id": 6,
+            "tela_nome": "ecommerce.pedidosdosite",
+            "tela_tipo": "CRUD",
+            "tela_web_url": "/app/ecommerce/pedidosdosite",
+            "tela_descricao": "Pedidos do Ecommerce",
+            "tela_icone": "mdi-calendar-check",
+            "funcionalidades": [
+              {
+                "tela_id": 6,
+                "funcionalidade_id": 54,
+                "funcionalidade_identificacao": "ecommerce.pedidosdosite.clonar",
+                "funcionalidade_descricao": "Clonar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 6,
+                "funcionalidade_id": 55,
+                "funcionalidade_identificacao": "ecommerce.pedidosdosite.copiar_dados",
+                "funcionalidade_descricao": "Copiar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 6,
+                "funcionalidade_id": 60,
+                "funcionalidade_identificacao": "ecommerce.pedidosdosite.customizar_colunas",
+                "funcionalidade_descricao": "Customizar Colunas",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 6,
+                "funcionalidade_id": 52,
+                "funcionalidade_identificacao": "ecommerce.pedidosdosite.editar",
+                "funcionalidade_descricao": "Editar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 6,
+                "funcionalidade_id": 53,
+                "funcionalidade_identificacao": "ecommerce.pedidosdosite.excluir",
+                "funcionalidade_descricao": "Excluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 6,
+                "funcionalidade_id": 58,
+                "funcionalidade_identificacao": "ecommerce.pedidosdosite.exportar_para_csv",
+                "funcionalidade_descricao": "Exportar p/CSV",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 6,
+                "funcionalidade_id": 57,
+                "funcionalidade_identificacao": "ecommerce.pedidosdosite.exportar_para_excel",
+                "funcionalidade_descricao": "Exportar p/Excel",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 6,
+                "funcionalidade_id": 56,
+                "funcionalidade_identificacao": "ecommerce.pedidosdosite.exportar_para_pdf",
+                "funcionalidade_descricao": "Exportar p/PDF",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 6,
+                "funcionalidade_id": 59,
+                "funcionalidade_identificacao": "ecommerce.pedidosdosite.imprimir_tela",
+                "funcionalidade_descricao": "Imprimir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 6,
+                "funcionalidade_id": 51,
+                "funcionalidade_identificacao": "ecommerce.pedidosdosite.incluir",
+                "funcionalidade_descricao": "Incluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              }
+            ]
+          },
+          {
+            "tela_ativo": "S",
+            "opcao_tela_ativo": "S",
+            "tela_id": 7,
+            "tela_nome": "ecommerce.clientesdoecommerce",
+            "tela_tipo": "CRUD",
+            "tela_web_url": "/app/ecommerce/clientesdoecommerce",
+            "tela_descricao": "Clientes do Ecommerce",
+            "tela_icone": "mdi-account-multiple",
+            "funcionalidades": [
+              {
+                "tela_id": 7,
+                "funcionalidade_id": 64,
+                "funcionalidade_identificacao": "ecommerce.clientesdoecommerce.clonar",
+                "funcionalidade_descricao": "Clonar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 7,
+                "funcionalidade_id": 65,
+                "funcionalidade_identificacao": "ecommerce.clientesdoecommerce.copiar_dados",
+                "funcionalidade_descricao": "Copiar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 7,
+                "funcionalidade_id": 70,
+                "funcionalidade_identificacao": "ecommerce.clientesdoecommerce.customizar_colunas",
+                "funcionalidade_descricao": "Customizar Colunas",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 7,
+                "funcionalidade_id": 62,
+                "funcionalidade_identificacao": "ecommerce.clientesdoecommerce.editar",
+                "funcionalidade_descricao": "Editar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 7,
+                "funcionalidade_id": 63,
+                "funcionalidade_identificacao": "ecommerce.clientesdoecommerce.excluir",
+                "funcionalidade_descricao": "Excluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 7,
+                "funcionalidade_id": 68,
+                "funcionalidade_identificacao": "ecommerce.clientesdoecommerce.exportar_para_csv",
+                "funcionalidade_descricao": "Exportar p/CSV",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 7,
+                "funcionalidade_id": 67,
+                "funcionalidade_identificacao": "ecommerce.clientesdoecommerce.exportar_para_excel",
+                "funcionalidade_descricao": "Exportar p/Excel",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 7,
+                "funcionalidade_id": 66,
+                "funcionalidade_identificacao": "ecommerce.clientesdoecommerce.exportar_para_pdf",
+                "funcionalidade_descricao": "Exportar p/PDF",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 7,
+                "funcionalidade_id": 69,
+                "funcionalidade_identificacao": "ecommerce.clientesdoecommerce.imprimir_tela",
+                "funcionalidade_descricao": "Imprimir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 7,
+                "funcionalidade_id": 61,
+                "funcionalidade_identificacao": "ecommerce.clientesdoecommerce.incluir",
+                "funcionalidade_descricao": "Incluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              }
+            ]
+          },
+          {
+            "tela_ativo": "S",
+            "opcao_tela_ativo": "S",
+            "tela_id": 8,
+            "tela_nome": "ecommerce.produtos",
+            "tela_tipo": "CRUD",
+            "tela_web_url": "/app/ecommerce/produtos",
+            "tela_descricao": "Produtos",
+            "tela_icone": "mdi-package-variant",
+            "funcionalidades": [
+              {
+                "tela_id": 8,
+                "funcionalidade_id": 74,
+                "funcionalidade_identificacao": "ecommerce.produtos.clonar",
+                "funcionalidade_descricao": "Clonar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 8,
+                "funcionalidade_id": 75,
+                "funcionalidade_identificacao": "ecommerce.produtos.copiar_dados",
+                "funcionalidade_descricao": "Copiar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 8,
+                "funcionalidade_id": 80,
+                "funcionalidade_identificacao": "ecommerce.produtos.customizar_colunas",
+                "funcionalidade_descricao": "Customizar Colunas",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 8,
+                "funcionalidade_id": 72,
+                "funcionalidade_identificacao": "ecommerce.produtos.editar",
+                "funcionalidade_descricao": "Editar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 8,
+                "funcionalidade_id": 73,
+                "funcionalidade_identificacao": "ecommerce.produtos.excluir",
+                "funcionalidade_descricao": "Excluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 8,
+                "funcionalidade_id": 78,
+                "funcionalidade_identificacao": "ecommerce.produtos.exportar_para_csv",
+                "funcionalidade_descricao": "Exportar p/CSV",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 8,
+                "funcionalidade_id": 77,
+                "funcionalidade_identificacao": "ecommerce.produtos.exportar_para_excel",
+                "funcionalidade_descricao": "Exportar p/Excel",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 8,
+                "funcionalidade_id": 76,
+                "funcionalidade_identificacao": "ecommerce.produtos.exportar_para_pdf",
+                "funcionalidade_descricao": "Exportar p/PDF",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 8,
+                "funcionalidade_id": 79,
+                "funcionalidade_identificacao": "ecommerce.produtos.imprimir_tela",
+                "funcionalidade_descricao": "Imprimir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 8,
+                "funcionalidade_id": 71,
+                "funcionalidade_identificacao": "ecommerce.produtos.incluir",
+                "funcionalidade_descricao": "Incluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              }
+            ]
+          },
+          {
+            "tela_ativo": "S",
+            "opcao_tela_ativo": "S",
+            "tela_id": 9,
+            "tela_nome": "ecommerce.fotosdeprodutos",
+            "tela_tipo": "CRUD",
+            "tela_web_url": "/app/ecommerce/fotosdeprodutos",
+            "tela_descricao": "Produtos x Fotos",
+            "tela_icone": "mdi-flower",
+            "funcionalidades": [
+              {
+                "tela_id": 9,
+                "funcionalidade_id": 84,
+                "funcionalidade_identificacao": "ecommerce.fotosdeprodutos.clonar",
+                "funcionalidade_descricao": "Clonar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 9,
+                "funcionalidade_id": 85,
+                "funcionalidade_identificacao": "ecommerce.fotosdeprodutos.copiar_dados",
+                "funcionalidade_descricao": "Copiar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 9,
+                "funcionalidade_id": 90,
+                "funcionalidade_identificacao": "ecommerce.fotosdeprodutos.customizar_colunas",
+                "funcionalidade_descricao": "Customizar Colunas",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 9,
+                "funcionalidade_id": 82,
+                "funcionalidade_identificacao": "ecommerce.fotosdeprodutos.editar",
+                "funcionalidade_descricao": "Editar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 9,
+                "funcionalidade_id": 83,
+                "funcionalidade_identificacao": "ecommerce.fotosdeprodutos.excluir",
+                "funcionalidade_descricao": "Excluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 9,
+                "funcionalidade_id": 88,
+                "funcionalidade_identificacao": "ecommerce.fotosdeprodutos.exportar_para_csv",
+                "funcionalidade_descricao": "Exportar p/CSV",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 9,
+                "funcionalidade_id": 87,
+                "funcionalidade_identificacao": "ecommerce.fotosdeprodutos.exportar_para_excel",
+                "funcionalidade_descricao": "Exportar p/Excel",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 9,
+                "funcionalidade_id": 86,
+                "funcionalidade_identificacao": "ecommerce.fotosdeprodutos.exportar_para_pdf",
+                "funcionalidade_descricao": "Exportar p/PDF",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 9,
+                "funcionalidade_id": 89,
+                "funcionalidade_identificacao": "ecommerce.fotosdeprodutos.imprimir_tela",
+                "funcionalidade_descricao": "Imprimir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 9,
+                "funcionalidade_id": 81,
+                "funcionalidade_identificacao": "ecommerce.fotosdeprodutos.incluir",
+                "funcionalidade_descricao": "Incluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              }
+            ]
+          },
+          {
+            "tela_ativo": "S",
+            "opcao_tela_ativo": "S",
+            "tela_id": 10,
+            "tela_nome": "ecommerce.secoesdeprodutos",
+            "tela_tipo": "CRUD",
+            "tela_web_url": "/app/ecommerce/secoesdeprodutos",
+            "tela_descricao": "Produtos x Seções",
+            "tela_icone": "mdi-view-week",
+            "funcionalidades": [
+              {
+                "tela_id": 10,
+                "funcionalidade_id": 94,
+                "funcionalidade_identificacao": "ecommerce.secoesdeprodutos.clonar",
+                "funcionalidade_descricao": "Clonar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 10,
+                "funcionalidade_id": 95,
+                "funcionalidade_identificacao": "ecommerce.secoesdeprodutos.copiar_dados",
+                "funcionalidade_descricao": "Copiar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 10,
+                "funcionalidade_id": 100,
+                "funcionalidade_identificacao": "ecommerce.secoesdeprodutos.customizar_colunas",
+                "funcionalidade_descricao": "Customizar Colunas",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 10,
+                "funcionalidade_id": 92,
+                "funcionalidade_identificacao": "ecommerce.secoesdeprodutos.editar",
+                "funcionalidade_descricao": "Editar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 10,
+                "funcionalidade_id": 93,
+                "funcionalidade_identificacao": "ecommerce.secoesdeprodutos.excluir",
+                "funcionalidade_descricao": "Excluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 10,
+                "funcionalidade_id": 98,
+                "funcionalidade_identificacao": "ecommerce.secoesdeprodutos.exportar_para_csv",
+                "funcionalidade_descricao": "Exportar p/CSV",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 10,
+                "funcionalidade_id": 97,
+                "funcionalidade_identificacao": "ecommerce.secoesdeprodutos.exportar_para_excel",
+                "funcionalidade_descricao": "Exportar p/Excel",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 10,
+                "funcionalidade_id": 96,
+                "funcionalidade_identificacao": "ecommerce.secoesdeprodutos.exportar_para_pdf",
+                "funcionalidade_descricao": "Exportar p/PDF",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 10,
+                "funcionalidade_id": 99,
+                "funcionalidade_identificacao": "ecommerce.secoesdeprodutos.imprimir_tela",
+                "funcionalidade_descricao": "Imprimir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 10,
+                "funcionalidade_id": 91,
+                "funcionalidade_identificacao": "ecommerce.secoesdeprodutos.incluir",
+                "funcionalidade_descricao": "Incluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              }
+            ]
+          },
+          {
+            "tela_ativo": "S",
+            "opcao_tela_ativo": "S",
+            "tela_id": 11,
+            "tela_nome": "ecommerce.produtossimilares",
+            "tela_tipo": "CRUD",
+            "tela_web_url": "/app/ecommerce/produtossimilares",
+            "tela_descricao": "Produtos Similares",
+            "tela_icone": "mdi-tag-multiple",
+            "funcionalidades": [
+              {
+                "tela_id": 11,
+                "funcionalidade_id": 104,
+                "funcionalidade_identificacao": "ecommerce.produtossimilares.clonar",
+                "funcionalidade_descricao": "Clonar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 11,
+                "funcionalidade_id": 105,
+                "funcionalidade_identificacao": "ecommerce.produtossimilares.copiar_dados",
+                "funcionalidade_descricao": "Copiar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 11,
+                "funcionalidade_id": 110,
+                "funcionalidade_identificacao": "ecommerce.produtossimilares.customizar_colunas",
+                "funcionalidade_descricao": "Customizar Colunas",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 11,
+                "funcionalidade_id": 102,
+                "funcionalidade_identificacao": "ecommerce.produtossimilares.editar",
+                "funcionalidade_descricao": "Editar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 11,
+                "funcionalidade_id": 103,
+                "funcionalidade_identificacao": "ecommerce.produtossimilares.excluir",
+                "funcionalidade_descricao": "Excluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 11,
+                "funcionalidade_id": 108,
+                "funcionalidade_identificacao": "ecommerce.produtossimilares.exportar_para_csv",
+                "funcionalidade_descricao": "Exportar p/CSV",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 11,
+                "funcionalidade_id": 107,
+                "funcionalidade_identificacao": "ecommerce.produtossimilares.exportar_para_excel",
+                "funcionalidade_descricao": "Exportar p/Excel",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 11,
+                "funcionalidade_id": 106,
+                "funcionalidade_identificacao": "ecommerce.produtossimilares.exportar_para_pdf",
+                "funcionalidade_descricao": "Exportar p/PDF",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 11,
+                "funcionalidade_id": 109,
+                "funcionalidade_identificacao": "ecommerce.produtossimilares.imprimir_tela",
+                "funcionalidade_descricao": "Imprimir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 11,
+                "funcionalidade_id": 101,
+                "funcionalidade_identificacao": "ecommerce.produtossimilares.incluir",
+                "funcionalidade_descricao": "Incluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              }
+            ]
+          },
+          {
+            "tela_ativo": "S",
+            "opcao_tela_ativo": "S",
+            "tela_id": 12,
+            "tela_nome": "ecommerce.produtoscorrelacionados",
+            "tela_tipo": "CRUD",
+            "tela_web_url": "/app/ecommerce/produtoscorrelacionados",
+            "tela_descricao": "Produtos Correlacionados",
+            "tela_icone": "mdi-tag-text-outline",
+            "funcionalidades": [
+              {
+                "tela_id": 12,
+                "funcionalidade_id": 114,
+                "funcionalidade_identificacao": "ecommerce.produtoscorrelacionados.clonar",
+                "funcionalidade_descricao": "Clonar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 12,
+                "funcionalidade_id": 115,
+                "funcionalidade_identificacao": "ecommerce.produtoscorrelacionados.copiar_dados",
+                "funcionalidade_descricao": "Copiar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 12,
+                "funcionalidade_id": 120,
+                "funcionalidade_identificacao": "ecommerce.produtoscorrelacionados.customizar_colunas",
+                "funcionalidade_descricao": "Customizar Colunas",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 12,
+                "funcionalidade_id": 112,
+                "funcionalidade_identificacao": "ecommerce.produtoscorrelacionados.editar",
+                "funcionalidade_descricao": "Editar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 12,
+                "funcionalidade_id": 113,
+                "funcionalidade_identificacao": "ecommerce.produtoscorrelacionados.excluir",
+                "funcionalidade_descricao": "Excluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 12,
+                "funcionalidade_id": 118,
+                "funcionalidade_identificacao": "ecommerce.produtoscorrelacionados.exportar_para_csv",
+                "funcionalidade_descricao": "Exportar p/CSV",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 12,
+                "funcionalidade_id": 117,
+                "funcionalidade_identificacao": "ecommerce.produtoscorrelacionados.exportar_para_excel",
+                "funcionalidade_descricao": "Exportar p/Excel",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 12,
+                "funcionalidade_id": 116,
+                "funcionalidade_identificacao": "ecommerce.produtoscorrelacionados.exportar_para_pdf",
+                "funcionalidade_descricao": "Exportar p/PDF",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 12,
+                "funcionalidade_id": 119,
+                "funcionalidade_identificacao": "ecommerce.produtoscorrelacionados.imprimir_tela",
+                "funcionalidade_descricao": "Imprimir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 12,
+                "funcionalidade_id": 111,
+                "funcionalidade_identificacao": "ecommerce.produtoscorrelacionados.incluir",
+                "funcionalidade_descricao": "Incluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              }
+            ]
+          },
+          {
+            "tela_ativo": "S",
+            "opcao_tela_ativo": "S",
+            "tela_id": 13,
+            "tela_nome": "ecommerce.slides",
+            "tela_tipo": "CRUD",
+            "tela_web_url": "/app/ecommerce/slides",
+            "tela_descricao": "Slides",
+            "tela_icone": "mdi-view-carousel",
+            "funcionalidades": [
+              {
+                "tela_id": 13,
+                "funcionalidade_id": 124,
+                "funcionalidade_identificacao": "ecommerce.slides.clonar",
+                "funcionalidade_descricao": "Clonar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 13,
+                "funcionalidade_id": 125,
+                "funcionalidade_identificacao": "ecommerce.slides.copiar_dados",
+                "funcionalidade_descricao": "Copiar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 13,
+                "funcionalidade_id": 130,
+                "funcionalidade_identificacao": "ecommerce.slides.customizar_colunas",
+                "funcionalidade_descricao": "Customizar Colunas",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 13,
+                "funcionalidade_id": 122,
+                "funcionalidade_identificacao": "ecommerce.slides.editar",
+                "funcionalidade_descricao": "Editar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 13,
+                "funcionalidade_id": 123,
+                "funcionalidade_identificacao": "ecommerce.slides.excluir",
+                "funcionalidade_descricao": "Excluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 13,
+                "funcionalidade_id": 128,
+                "funcionalidade_identificacao": "ecommerce.slides.exportar_para_csv",
+                "funcionalidade_descricao": "Exportar p/CSV",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 13,
+                "funcionalidade_id": 127,
+                "funcionalidade_identificacao": "ecommerce.slides.exportar_para_excel",
+                "funcionalidade_descricao": "Exportar p/Excel",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 13,
+                "funcionalidade_id": 126,
+                "funcionalidade_identificacao": "ecommerce.slides.exportar_para_pdf",
+                "funcionalidade_descricao": "Exportar p/PDF",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 13,
+                "funcionalidade_id": 129,
+                "funcionalidade_identificacao": "ecommerce.slides.imprimir_tela",
+                "funcionalidade_descricao": "Imprimir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 13,
+                "funcionalidade_id": 121,
+                "funcionalidade_identificacao": "ecommerce.slides.incluir",
+                "funcionalidade_descricao": "Incluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              }
+            ]
+          },
+          {
+            "tela_ativo": "S",
+            "opcao_tela_ativo": "S",
+            "tela_id": 14,
+            "tela_nome": "ecommerce.marcasdeprodutos",
+            "tela_tipo": "CRUD",
+            "tela_web_url": "/app/ecommerce/marcasdeprodutos",
+            "tela_descricao": "Marcas de Produtos",
+            "tela_icone": "mdi-tag-faces",
+            "funcionalidades": [
+              {
+                "tela_id": 14,
+                "funcionalidade_id": 134,
+                "funcionalidade_identificacao": "ecommerce.marcasdeprodutos.clonar",
+                "funcionalidade_descricao": "Clonar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 14,
+                "funcionalidade_id": 135,
+                "funcionalidade_identificacao": "ecommerce.marcasdeprodutos.copiar_dados",
+                "funcionalidade_descricao": "Copiar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 14,
+                "funcionalidade_id": 140,
+                "funcionalidade_identificacao": "ecommerce.marcasdeprodutos.customizar_colunas",
+                "funcionalidade_descricao": "Customizar Colunas",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 14,
+                "funcionalidade_id": 132,
+                "funcionalidade_identificacao": "ecommerce.marcasdeprodutos.editar",
+                "funcionalidade_descricao": "Editar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 14,
+                "funcionalidade_id": 133,
+                "funcionalidade_identificacao": "ecommerce.marcasdeprodutos.excluir",
+                "funcionalidade_descricao": "Excluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 14,
+                "funcionalidade_id": 138,
+                "funcionalidade_identificacao": "ecommerce.marcasdeprodutos.exportar_para_csv",
+                "funcionalidade_descricao": "Exportar p/CSV",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 14,
+                "funcionalidade_id": 137,
+                "funcionalidade_identificacao": "ecommerce.marcasdeprodutos.exportar_para_excel",
+                "funcionalidade_descricao": "Exportar p/Excel",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 14,
+                "funcionalidade_id": 136,
+                "funcionalidade_identificacao": "ecommerce.marcasdeprodutos.exportar_para_pdf",
+                "funcionalidade_descricao": "Exportar p/PDF",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 14,
+                "funcionalidade_id": 139,
+                "funcionalidade_identificacao": "ecommerce.marcasdeprodutos.imprimir_tela",
+                "funcionalidade_descricao": "Imprimir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 14,
+                "funcionalidade_id": 131,
+                "funcionalidade_identificacao": "ecommerce.marcasdeprodutos.incluir",
+                "funcionalidade_descricao": "Incluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              }
+            ]
+          },
+          {
+            "tela_ativo": "S",
+            "opcao_tela_ativo": "S",
+            "tela_id": 15,
+            "tela_nome": "ecommerce.depoimentosdeclientes",
+            "tela_tipo": "CRUD",
+            "tela_web_url": "/app/ecommerce/depoimentosdeclientes",
+            "tela_descricao": "Depoimentos de Clientes",
+            "tela_icone": "mdi-account-star",
+            "funcionalidades": [
+              {
+                "tela_id": 15,
+                "funcionalidade_id": 144,
+                "funcionalidade_identificacao": "ecommerce.depoimentosdeclientes.clonar",
+                "funcionalidade_descricao": "Clonar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 15,
+                "funcionalidade_id": 145,
+                "funcionalidade_identificacao": "ecommerce.depoimentosdeclientes.copiar_dados",
+                "funcionalidade_descricao": "Copiar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 15,
+                "funcionalidade_id": 150,
+                "funcionalidade_identificacao": "ecommerce.depoimentosdeclientes.customizar_colunas",
+                "funcionalidade_descricao": "Customizar Colunas",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 15,
+                "funcionalidade_id": 142,
+                "funcionalidade_identificacao": "ecommerce.depoimentosdeclientes.editar",
+                "funcionalidade_descricao": "Editar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 15,
+                "funcionalidade_id": 143,
+                "funcionalidade_identificacao": "ecommerce.depoimentosdeclientes.excluir",
+                "funcionalidade_descricao": "Excluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 15,
+                "funcionalidade_id": 148,
+                "funcionalidade_identificacao": "ecommerce.depoimentosdeclientes.exportar_para_csv",
+                "funcionalidade_descricao": "Exportar p/CSV",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 15,
+                "funcionalidade_id": 147,
+                "funcionalidade_identificacao": "ecommerce.depoimentosdeclientes.exportar_para_excel",
+                "funcionalidade_descricao": "Exportar p/Excel",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 15,
+                "funcionalidade_id": 146,
+                "funcionalidade_identificacao": "ecommerce.depoimentosdeclientes.exportar_para_pdf",
+                "funcionalidade_descricao": "Exportar p/PDF",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 15,
+                "funcionalidade_id": 149,
+                "funcionalidade_identificacao": "ecommerce.depoimentosdeclientes.imprimir_tela",
+                "funcionalidade_descricao": "Imprimir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 15,
+                "funcionalidade_id": 141,
+                "funcionalidade_identificacao": "ecommerce.depoimentosdeclientes.incluir",
+                "funcionalidade_descricao": "Incluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              }
+            ]
+          },
+          {
+            "tela_ativo": "S",
+            "opcao_tela_ativo": "S",
+            "tela_id": 16,
+            "tela_nome": "ecommerce.paginasinformativas",
+            "tela_tipo": "CRUD",
+            "tela_web_url": "/app/ecommerce/paginasinformativas",
+            "tela_descricao": "Páginas Informativas",
+            "tela_icone": "mdi-newspaper",
+            "funcionalidades": [
+              {
+                "tela_id": 16,
+                "funcionalidade_id": 154,
+                "funcionalidade_identificacao": "ecommerce.paginasinformativas.clonar",
+                "funcionalidade_descricao": "Clonar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 16,
+                "funcionalidade_id": 155,
+                "funcionalidade_identificacao": "ecommerce.paginasinformativas.copiar_dados",
+                "funcionalidade_descricao": "Copiar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 16,
+                "funcionalidade_id": 160,
+                "funcionalidade_identificacao": "ecommerce.paginasinformativas.customizar_colunas",
+                "funcionalidade_descricao": "Customizar Colunas",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 16,
+                "funcionalidade_id": 152,
+                "funcionalidade_identificacao": "ecommerce.paginasinformativas.editar",
+                "funcionalidade_descricao": "Editar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 16,
+                "funcionalidade_id": 153,
+                "funcionalidade_identificacao": "ecommerce.paginasinformativas.excluir",
+                "funcionalidade_descricao": "Excluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 16,
+                "funcionalidade_id": 158,
+                "funcionalidade_identificacao": "ecommerce.paginasinformativas.exportar_para_csv",
+                "funcionalidade_descricao": "Exportar p/CSV",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 16,
+                "funcionalidade_id": 157,
+                "funcionalidade_identificacao": "ecommerce.paginasinformativas.exportar_para_excel",
+                "funcionalidade_descricao": "Exportar p/Excel",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 16,
+                "funcionalidade_id": 156,
+                "funcionalidade_identificacao": "ecommerce.paginasinformativas.exportar_para_pdf",
+                "funcionalidade_descricao": "Exportar p/PDF",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 16,
+                "funcionalidade_id": 159,
+                "funcionalidade_identificacao": "ecommerce.paginasinformativas.imprimir_tela",
+                "funcionalidade_descricao": "Imprimir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 16,
+                "funcionalidade_id": 151,
+                "funcionalidade_identificacao": "ecommerce.paginasinformativas.incluir",
+                "funcionalidade_descricao": "Incluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              }
+            ]
+          },
+          {
+            "tela_ativo": "S",
+            "opcao_tela_ativo": "S",
+            "tela_id": 17,
+            "tela_nome": "ecommerce.artigosdoblog",
+            "tela_tipo": "CRUD",
+            "tela_web_url": "/app/ecommerce/artigosdoblog",
+            "tela_descricao": "Artigos do Blog",
+            "tela_icone": "mdi-blogger",
+            "funcionalidades": [
+              {
+                "tela_id": 17,
+                "funcionalidade_id": 164,
+                "funcionalidade_identificacao": "ecommerce.artigosdoblog.clonar",
+                "funcionalidade_descricao": "Clonar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 17,
+                "funcionalidade_id": 165,
+                "funcionalidade_identificacao": "ecommerce.artigosdoblog.copiar_dados",
+                "funcionalidade_descricao": "Copiar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 17,
+                "funcionalidade_id": 170,
+                "funcionalidade_identificacao": "ecommerce.artigosdoblog.customizar_colunas",
+                "funcionalidade_descricao": "Customizar Colunas",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 17,
+                "funcionalidade_id": 162,
+                "funcionalidade_identificacao": "ecommerce.artigosdoblog.editar",
+                "funcionalidade_descricao": "Editar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 17,
+                "funcionalidade_id": 163,
+                "funcionalidade_identificacao": "ecommerce.artigosdoblog.excluir",
+                "funcionalidade_descricao": "Excluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 17,
+                "funcionalidade_id": 168,
+                "funcionalidade_identificacao": "ecommerce.artigosdoblog.exportar_para_csv",
+                "funcionalidade_descricao": "Exportar p/CSV",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 17,
+                "funcionalidade_id": 167,
+                "funcionalidade_identificacao": "ecommerce.artigosdoblog.exportar_para_excel",
+                "funcionalidade_descricao": "Exportar p/Excel",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 17,
+                "funcionalidade_id": 166,
+                "funcionalidade_identificacao": "ecommerce.artigosdoblog.exportar_para_pdf",
+                "funcionalidade_descricao": "Exportar p/PDF",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 17,
+                "funcionalidade_id": 169,
+                "funcionalidade_identificacao": "ecommerce.artigosdoblog.imprimir_tela",
+                "funcionalidade_descricao": "Imprimir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 17,
+                "funcionalidade_id": 161,
+                "funcionalidade_identificacao": "ecommerce.artigosdoblog.incluir",
+                "funcionalidade_descricao": "Incluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              }
+            ]
+          },
+          {
+            "tela_ativo": "S",
+            "opcao_tela_ativo": "S",
+            "tela_id": 18,
+            "tela_nome": "ecommerce.cuponsdedesconto",
+            "tela_tipo": "CRUD",
+            "tela_web_url": "/app/ecommerce/cuponsdedesconto",
+            "tela_descricao": "Cupons de Desconto",
+            "tela_icone": "mdi-ticket",
+            "funcionalidades": [
+              {
+                "tela_id": 18,
+                "funcionalidade_id": 174,
+                "funcionalidade_identificacao": "ecommerce.cuponsdedesconto.clonar",
+                "funcionalidade_descricao": "Clonar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 18,
+                "funcionalidade_id": 175,
+                "funcionalidade_identificacao": "ecommerce.cuponsdedesconto.copiar_dados",
+                "funcionalidade_descricao": "Copiar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 18,
+                "funcionalidade_id": 180,
+                "funcionalidade_identificacao": "ecommerce.cuponsdedesconto.customizar_colunas",
+                "funcionalidade_descricao": "Customizar Colunas",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 18,
+                "funcionalidade_id": 172,
+                "funcionalidade_identificacao": "ecommerce.cuponsdedesconto.editar",
+                "funcionalidade_descricao": "Editar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 18,
+                "funcionalidade_id": 173,
+                "funcionalidade_identificacao": "ecommerce.cuponsdedesconto.excluir",
+                "funcionalidade_descricao": "Excluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 18,
+                "funcionalidade_id": 178,
+                "funcionalidade_identificacao": "ecommerce.cuponsdedesconto.exportar_para_csv",
+                "funcionalidade_descricao": "Exportar p/CSV",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 18,
+                "funcionalidade_id": 177,
+                "funcionalidade_identificacao": "ecommerce.cuponsdedesconto.exportar_para_excel",
+                "funcionalidade_descricao": "Exportar p/Excel",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 18,
+                "funcionalidade_id": 176,
+                "funcionalidade_identificacao": "ecommerce.cuponsdedesconto.exportar_para_pdf",
+                "funcionalidade_descricao": "Exportar p/PDF",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 18,
+                "funcionalidade_id": 179,
+                "funcionalidade_identificacao": "ecommerce.cuponsdedesconto.imprimir_tela",
+                "funcionalidade_descricao": "Imprimir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 18,
+                "funcionalidade_id": 171,
+                "funcionalidade_identificacao": "ecommerce.cuponsdedesconto.incluir",
+                "funcionalidade_descricao": "Incluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              }
+            ]
+          },
+          {
+            "tela_ativo": "S",
+            "opcao_tela_ativo": "S",
+            "tela_id": 19,
+            "tela_nome": "ecommerce.estoques",
+            "tela_tipo": "CRUD",
+            "tela_web_url": "/app/ecommerce/estoques",
+            "tela_descricao": "Estoques",
+            "tela_icone": "mdi-package-variant-closed",
+            "funcionalidades": [
+              {
+                "tela_id": 19,
+                "funcionalidade_id": 184,
+                "funcionalidade_identificacao": "ecommerce.estoques.clonar",
+                "funcionalidade_descricao": "Clonar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 19,
+                "funcionalidade_id": 185,
+                "funcionalidade_identificacao": "ecommerce.estoques.copiar_dados",
+                "funcionalidade_descricao": "Copiar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 19,
+                "funcionalidade_id": 190,
+                "funcionalidade_identificacao": "ecommerce.estoques.customizar_colunas",
+                "funcionalidade_descricao": "Customizar Colunas",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 19,
+                "funcionalidade_id": 182,
+                "funcionalidade_identificacao": "ecommerce.estoques.editar",
+                "funcionalidade_descricao": "Editar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 19,
+                "funcionalidade_id": 183,
+                "funcionalidade_identificacao": "ecommerce.estoques.excluir",
+                "funcionalidade_descricao": "Excluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 19,
+                "funcionalidade_id": 188,
+                "funcionalidade_identificacao": "ecommerce.estoques.exportar_para_csv",
+                "funcionalidade_descricao": "Exportar p/CSV",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 19,
+                "funcionalidade_id": 187,
+                "funcionalidade_identificacao": "ecommerce.estoques.exportar_para_excel",
+                "funcionalidade_descricao": "Exportar p/Excel",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 19,
+                "funcionalidade_id": 186,
+                "funcionalidade_identificacao": "ecommerce.estoques.exportar_para_pdf",
+                "funcionalidade_descricao": "Exportar p/PDF",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 19,
+                "funcionalidade_id": 189,
+                "funcionalidade_identificacao": "ecommerce.estoques.imprimir_tela",
+                "funcionalidade_descricao": "Imprimir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 19,
+                "funcionalidade_id": 181,
+                "funcionalidade_identificacao": "ecommerce.estoques.incluir",
+                "funcionalidade_descricao": "Incluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              }
+            ]
+          },
+          {
+            "tela_ativo": "S",
+            "opcao_tela_ativo": "S",
+            "tela_id": 20,
+            "tela_nome": "ecommerce.tabeladeprecos",
+            "tela_tipo": "CRUD",
+            "tela_web_url": "/app/ecommerce/tabeladeprecos",
+            "tela_descricao": "Tabela de Preços",
+            "tela_icone": "mdi-cash-usd",
+            "funcionalidades": [
+              {
+                "tela_id": 20,
+                "funcionalidade_id": 194,
+                "funcionalidade_identificacao": "ecommerce.tabeladeprecos.clonar",
+                "funcionalidade_descricao": "Clonar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 20,
+                "funcionalidade_id": 195,
+                "funcionalidade_identificacao": "ecommerce.tabeladeprecos.copiar_dados",
+                "funcionalidade_descricao": "Copiar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 20,
+                "funcionalidade_id": 200,
+                "funcionalidade_identificacao": "ecommerce.tabeladeprecos.customizar_colunas",
+                "funcionalidade_descricao": "Customizar Colunas",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 20,
+                "funcionalidade_id": 192,
+                "funcionalidade_identificacao": "ecommerce.tabeladeprecos.editar",
+                "funcionalidade_descricao": "Editar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 20,
+                "funcionalidade_id": 193,
+                "funcionalidade_identificacao": "ecommerce.tabeladeprecos.excluir",
+                "funcionalidade_descricao": "Excluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 20,
+                "funcionalidade_id": 198,
+                "funcionalidade_identificacao": "ecommerce.tabeladeprecos.exportar_para_csv",
+                "funcionalidade_descricao": "Exportar p/CSV",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 20,
+                "funcionalidade_id": 197,
+                "funcionalidade_identificacao": "ecommerce.tabeladeprecos.exportar_para_excel",
+                "funcionalidade_descricao": "Exportar p/Excel",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 20,
+                "funcionalidade_id": 196,
+                "funcionalidade_identificacao": "ecommerce.tabeladeprecos.exportar_para_pdf",
+                "funcionalidade_descricao": "Exportar p/PDF",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 20,
+                "funcionalidade_id": 199,
+                "funcionalidade_identificacao": "ecommerce.tabeladeprecos.imprimir_tela",
+                "funcionalidade_descricao": "Imprimir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 20,
+                "funcionalidade_id": 191,
+                "funcionalidade_identificacao": "ecommerce.tabeladeprecos.incluir",
+                "funcionalidade_descricao": "Incluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              }
+            ]
+          },
+          {
+            "tela_ativo": "S",
+            "opcao_tela_ativo": "S",
+            "tela_id": 21,
+            "tela_nome": "ecommerce.taxasdecartao",
+            "tela_tipo": "CRUD",
+            "tela_web_url": "/app/ecommerce/taxasdecartao",
+            "tela_descricao": "Taxas de Cartão",
+            "tela_icone": "mdi-credit-card-multiple",
+            "funcionalidades": [
+              {
+                "tela_id": 21,
+                "funcionalidade_id": 204,
+                "funcionalidade_identificacao": "ecommerce.taxasdecartao.clonar",
+                "funcionalidade_descricao": "Clonar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 21,
+                "funcionalidade_id": 205,
+                "funcionalidade_identificacao": "ecommerce.taxasdecartao.copiar_dados",
+                "funcionalidade_descricao": "Copiar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 21,
+                "funcionalidade_id": 210,
+                "funcionalidade_identificacao": "ecommerce.taxasdecartao.customizar_colunas",
+                "funcionalidade_descricao": "Customizar Colunas",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 21,
+                "funcionalidade_id": 202,
+                "funcionalidade_identificacao": "ecommerce.taxasdecartao.editar",
+                "funcionalidade_descricao": "Editar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 21,
+                "funcionalidade_id": 203,
+                "funcionalidade_identificacao": "ecommerce.taxasdecartao.excluir",
+                "funcionalidade_descricao": "Excluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 21,
+                "funcionalidade_id": 208,
+                "funcionalidade_identificacao": "ecommerce.taxasdecartao.exportar_para_csv",
+                "funcionalidade_descricao": "Exportar p/CSV",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 21,
+                "funcionalidade_id": 207,
+                "funcionalidade_identificacao": "ecommerce.taxasdecartao.exportar_para_excel",
+                "funcionalidade_descricao": "Exportar p/Excel",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 21,
+                "funcionalidade_id": 206,
+                "funcionalidade_identificacao": "ecommerce.taxasdecartao.exportar_para_pdf",
+                "funcionalidade_descricao": "Exportar p/PDF",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 21,
+                "funcionalidade_id": 209,
+                "funcionalidade_identificacao": "ecommerce.taxasdecartao.imprimir_tela",
+                "funcionalidade_descricao": "Imprimir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 21,
+                "funcionalidade_id": 201,
+                "funcionalidade_identificacao": "ecommerce.taxasdecartao.incluir",
+                "funcionalidade_descricao": "Incluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "modulo_id": 4,
+        "modulo_sequencia": 4,
+        "modulo_titulo": "Configurações",
+        "modulo_subtitulo": "Configurações do Sistema",
+        "modulo_descricao": "Configurações",
+        "modulo_icone": "mdi-dropbox",
+        "modulo_ativo": "S",
+        "telas": [
+          {
+            "tela_ativo": "S",
+            "opcao_tela_ativo": "S",
+            "tela_id": 22,
+            "tela_nome": "configuracoes.empresas",
+            "tela_tipo": "CRUD",
+            "tela_web_url": "/app/configuracoes/empresas",
+            "tela_descricao": "Empresas",
+            "tela_icone": "mdi-home-modern",
+            "funcionalidades": [
+              {
+                "tela_id": 22,
+                "funcionalidade_id": 214,
+                "funcionalidade_identificacao": "configuracoes.empresas.clonar",
+                "funcionalidade_descricao": "Clonar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 22,
+                "funcionalidade_id": 215,
+                "funcionalidade_identificacao": "configuracoes.empresas.copiar_dados",
+                "funcionalidade_descricao": "Copiar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 22,
+                "funcionalidade_id": 220,
+                "funcionalidade_identificacao": "configuracoes.empresas.customizar_colunas",
+                "funcionalidade_descricao": "Customizar Colunas",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 22,
+                "funcionalidade_id": 212,
+                "funcionalidade_identificacao": "configuracoes.empresas.editar",
+                "funcionalidade_descricao": "Editar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 22,
+                "funcionalidade_id": 213,
+                "funcionalidade_identificacao": "configuracoes.empresas.excluir",
+                "funcionalidade_descricao": "Excluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 22,
+                "funcionalidade_id": 218,
+                "funcionalidade_identificacao": "configuracoes.empresas.exportar_para_csv",
+                "funcionalidade_descricao": "Exportar p/CSV",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 22,
+                "funcionalidade_id": 217,
+                "funcionalidade_identificacao": "configuracoes.empresas.exportar_para_excel",
+                "funcionalidade_descricao": "Exportar p/Excel",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 22,
+                "funcionalidade_id": 216,
+                "funcionalidade_identificacao": "configuracoes.empresas.exportar_para_pdf",
+                "funcionalidade_descricao": "Exportar p/PDF",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 22,
+                "funcionalidade_id": 219,
+                "funcionalidade_identificacao": "configuracoes.empresas.imprimir_tela",
+                "funcionalidade_descricao": "Imprimir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 22,
+                "funcionalidade_id": 211,
+                "funcionalidade_identificacao": "configuracoes.empresas.incluir",
+                "funcionalidade_descricao": "Incluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              }
+            ]
+          },
+          {
+            "tela_ativo": "S",
+            "opcao_tela_ativo": "S",
+            "tela_id": 23,
+            "tela_nome": "configuracoes.parametros",
+            "tela_tipo": "CRUD",
+            "tela_web_url": "/app/configuracoes/parametros",
+            "tela_descricao": "Parametros",
+            "tela_icone": "mdi-lightbulb-outline",
+            "funcionalidades": [
+              {
+                "tela_id": 23,
+                "funcionalidade_id": 224,
+                "funcionalidade_identificacao": "configuracoes.parametros.clonar",
+                "funcionalidade_descricao": "Clonar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 23,
+                "funcionalidade_id": 225,
+                "funcionalidade_identificacao": "configuracoes.parametros.copiar_dados",
+                "funcionalidade_descricao": "Copiar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 23,
+                "funcionalidade_id": 230,
+                "funcionalidade_identificacao": "configuracoes.parametros.customizar_colunas",
+                "funcionalidade_descricao": "Customizar Colunas",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 23,
+                "funcionalidade_id": 222,
+                "funcionalidade_identificacao": "configuracoes.parametros.editar",
+                "funcionalidade_descricao": "Editar",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 23,
+                "funcionalidade_id": 223,
+                "funcionalidade_identificacao": "configuracoes.parametros.excluir",
+                "funcionalidade_descricao": "Excluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 23,
+                "funcionalidade_id": 228,
+                "funcionalidade_identificacao": "configuracoes.parametros.exportar_para_csv",
+                "funcionalidade_descricao": "Exportar p/CSV",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 23,
+                "funcionalidade_id": 227,
+                "funcionalidade_identificacao": "configuracoes.parametros.exportar_para_excel",
+                "funcionalidade_descricao": "Exportar p/Excel",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 23,
+                "funcionalidade_id": 226,
+                "funcionalidade_identificacao": "configuracoes.parametros.exportar_para_pdf",
+                "funcionalidade_descricao": "Exportar p/PDF",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 23,
+                "funcionalidade_id": 229,
+                "funcionalidade_identificacao": "configuracoes.parametros.imprimir_tela",
+                "funcionalidade_descricao": "Imprimir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              },
+              {
+                "tela_id": 23,
+                "funcionalidade_id": 221,
+                "funcionalidade_identificacao": "configuracoes.parametros.incluir",
+                "funcionalidade_descricao": "Incluir",
+                "funcionalidade_ativo": "S",
+                "funcionalidade_habilitado": "S",
+                "funcionalidade_visivel": "S",
+                "funcionalidade_pedir_senha": "N"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjg0MzYxMjAsInJlZnJlc2hfdXVpZCI6ImMzNWNkMmRmLWQ2Y2MtNDNhMS04MjEwLTliMjI3ZTc0MDFkOCsrMSIsInVzdWFyaW9faWQiOjF9.kltJRWt7lfUc_NYCrS6isUlhQ7fuTMXALBKFfcqdTp4"
+}
