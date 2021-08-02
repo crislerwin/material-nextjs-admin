@@ -5,14 +5,8 @@ import { theme } from "../theme";
 import { Fragment, useEffect } from "react";
 
 import { AuthProvider } from "../contexts/AuthContext";
-// import { useSelector } from "react-redux";
-// import { AppState } from "../redux/root-reducer";
-function MyApp({ Component, pageProps }: AppProps) {
-  // const { appPaletteType: paletteType } = useSelector(
-  //   (state: AppState) => state.themeMode
-  // );
-  // const themes = theming(paletteType);
 
+function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
     // Remove the server-side injected CSS.
     const jssStyles = document.querySelector("#jss-server-side");
