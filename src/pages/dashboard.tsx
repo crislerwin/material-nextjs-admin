@@ -22,6 +22,7 @@ import { mainListItems, secondaryListItems } from "../components/listItems";
 import Chart from "../components/Chart";
 import Deposits from "../components/Deposit";
 import Orders from "../components/Order";
+import Router from "next/router";
 
 function Copyright() {
   return (
@@ -157,7 +158,7 @@ export default function Dashboard() {
           >
             Dashboard
           </Typography>
-          <IconButton color="inherit">
+          <IconButton color="inherit" onClick={() => Router.push("/")}>
             <Badge badgeContent={4} color="secondary">
               <NotificationsIcon />
             </Badge>
