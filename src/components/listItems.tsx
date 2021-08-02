@@ -16,7 +16,11 @@ import PopupState, { bindTrigger, bindMenu } from "material-ui-popup-state";
 import { IconButton } from "@material-ui/core";
 
 export const mainListItems = (
-  <div>
+  <>
+    {" "}
+    <ListSubheader inset color="primary">
+      <h3>MÓDULOS</h3>
+    </ListSubheader>
     <ListItem>
       <PopupState variant="popper">
         {(popupState) => (
@@ -26,7 +30,6 @@ export const mainListItems = (
             </IconButton>
             <Menu {...bindMenu(popupState)}>
               <MenuItem onClick={popupState.close}>
-                {" "}
                 <Button
                   variant="outlined"
                   color="primary"
@@ -36,7 +39,6 @@ export const mainListItems = (
                 </Button>
               </MenuItem>
               <MenuItem onClick={popupState.close}>
-                {" "}
                 <Button
                   variant="outlined"
                   color="primary"
@@ -46,7 +48,6 @@ export const mainListItems = (
                 </Button>
               </MenuItem>
               <MenuItem onClick={popupState.close}>
-                {" "}
                 <Button
                   variant="outlined"
                   color="primary"
@@ -56,7 +57,6 @@ export const mainListItems = (
                 </Button>
               </MenuItem>
               <MenuItem onClick={popupState.close}>
-                {" "}
                 <Button
                   variant="outlined"
                   color="primary"
@@ -66,7 +66,6 @@ export const mainListItems = (
                 </Button>
               </MenuItem>
               <MenuItem onClick={popupState.close}>
-                {" "}
                 <Button
                   variant="outlined"
                   color="primary"
@@ -99,7 +98,6 @@ export const mainListItems = (
                 </Button>
               </MenuItem>
               <MenuItem onClick={popupState.close}>
-                {" "}
                 <Button
                   variant="outlined"
                   color="primary"
@@ -109,7 +107,6 @@ export const mainListItems = (
                 </Button>
               </MenuItem>
               <MenuItem onClick={popupState.close}>
-                {" "}
                 <Button
                   variant="outlined"
                   color="primary"
@@ -119,7 +116,6 @@ export const mainListItems = (
                 </Button>
               </MenuItem>
               <MenuItem onClick={popupState.close}>
-                {" "}
                 <Button
                   variant="outlined"
                   color="primary"
@@ -129,7 +125,6 @@ export const mainListItems = (
                 </Button>
               </MenuItem>
               <MenuItem onClick={popupState.close}>
-                {" "}
                 <Button
                   variant="outlined"
                   color="primary"
@@ -139,7 +134,6 @@ export const mainListItems = (
                 </Button>
               </MenuItem>
               <MenuItem onClick={popupState.close}>
-                {" "}
                 <Button
                   variant="outlined"
                   color="primary"
@@ -158,7 +152,6 @@ export const mainListItems = (
                 </Button>
               </MenuItem>
               <MenuItem onClick={popupState.close}>
-                {" "}
                 <Button
                   variant="outlined"
                   color="primary"
@@ -168,7 +161,6 @@ export const mainListItems = (
                 </Button>
               </MenuItem>
               <MenuItem onClick={popupState.close}>
-                {" "}
                 <Button
                   variant="outlined"
                   color="primary"
@@ -178,7 +170,6 @@ export const mainListItems = (
                 </Button>
               </MenuItem>
               <MenuItem onClick={popupState.close}>
-                {" "}
                 <Button
                   variant="outlined"
                   color="primary"
@@ -188,7 +179,6 @@ export const mainListItems = (
                 </Button>
               </MenuItem>
               <MenuItem onClick={popupState.close}>
-                {" "}
                 <Button
                   variant="outlined"
                   color="primary"
@@ -198,7 +188,6 @@ export const mainListItems = (
                 </Button>
               </MenuItem>
               <MenuItem onClick={popupState.close}>
-                {" "}
                 <Button
                   variant="outlined"
                   color="primary"
@@ -208,7 +197,6 @@ export const mainListItems = (
                 </Button>
               </MenuItem>
               <MenuItem onClick={popupState.close}>
-                {" "}
                 <Button
                   variant="outlined"
                   color="primary"
@@ -218,7 +206,6 @@ export const mainListItems = (
                 </Button>
               </MenuItem>
               <MenuItem onClick={popupState.close}>
-                {" "}
                 <Button
                   variant="outlined"
                   color="primary"
@@ -228,7 +215,6 @@ export const mainListItems = (
                 </Button>
               </MenuItem>
               <MenuItem onClick={popupState.close}>
-                {" "}
                 <Button
                   variant="outlined"
                   color="primary"
@@ -238,7 +224,6 @@ export const mainListItems = (
                 </Button>
               </MenuItem>
               <MenuItem onClick={popupState.close}>
-                {" "}
                 <Button
                   variant="outlined"
                   color="primary"
@@ -286,29 +271,29 @@ export const mainListItems = (
       </PopupState>
       <ListItemText primary="Configurações" />
     </ListItem>
-  </div>
+  </>
 );
 
-export const secondaryListItems = (
-  <div>
-    <ListSubheader inset>Relatórios</ListSubheader>
-    <ListItem button>
-      <ListItemIcon>
-        <AssignmentIcon />
-      </ListItemIcon>
-      <ListItemText primary="Mês atual" />
-    </ListItem>
-    <ListItem button>
-      <ListItemIcon>
-        <AssignmentIcon />
-      </ListItemIcon>
-      <ListItemText primary="Último quarto" />
-    </ListItem>
-    <ListItem button>
-      <ListItemIcon>
-        <AssignmentIcon />
-      </ListItemIcon>
-      <ListItemText primary="Final de ano" />
-    </ListItem>
-  </div>
-);
+// export const secondaryListItems = (
+//   <div>
+//     <ListSubheader inset>Relatórios</ListSubheader>
+//     <ListItem button>
+//       <ListItemIcon>
+//         <AssignmentIcon />
+//       </ListItemIcon>
+//       <ListItemText primary="Mês atual" />
+//     </ListItem>
+//     <ListItem button>
+//       <ListItemIcon>
+//         <AssignmentIcon />
+//       </ListItemIcon>
+//       <ListItemText primary="Último quarto" />
+//     </ListItem>
+//     <ListItem button>
+//       <ListItemIcon>
+//         <AssignmentIcon />
+//       </ListItemIcon>
+//       <ListItemText primary="Final de ano" />
+//     </ListItem>
+//   </div>
+// );
