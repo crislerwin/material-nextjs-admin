@@ -1,23 +1,18 @@
 import {
   ListItem,
-  ListItemIcon,
   ListItemText,
   ListSubheader,
-  Button,
   Menu,
   MenuItem,
+  IconButton,
 } from "@material-ui/core";
-import DashboardIcon from "@material-ui/icons/Dashboard";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import SettingIcon from "@material-ui/icons/Settings";
 import LayersIcon from "@material-ui/icons/Layers";
-import AssignmentIcon from "@material-ui/icons/Assignment";
 import PopupState, { bindTrigger, bindMenu } from "material-ui-popup-state";
-import { IconButton } from "@material-ui/core";
 
 export const mainListItems = (
   <>
-    {" "}
     <ListSubheader inset color="primary">
       <h3>MÓDULOS</h3>
     </ListSubheader>
@@ -25,213 +20,53 @@ export const mainListItems = (
       <PopupState variant="popper">
         {(popupState) => (
           <>
-            <IconButton {...bindTrigger(popupState)}>
+            <IconButton {...bindTrigger(popupState)} color="primary">
               <LayersIcon />
             </IconButton>
             <Menu {...bindMenu(popupState)}>
-              <MenuItem onClick={popupState.close}>
-                <Button
-                  variant="outlined"
-                  color="primary"
-                  onClick={() => window.alert("você clicou")}
-                >
-                  Usuários
-                </Button>
-              </MenuItem>
-              <MenuItem onClick={popupState.close}>
-                <Button
-                  variant="outlined"
-                  color="primary"
-                  onClick={() => window.alert("Voce clicou")}
-                >
-                  Grupos de Acesso
-                </Button>
-              </MenuItem>
-              <MenuItem onClick={popupState.close}>
-                <Button
-                  variant="outlined"
-                  color="primary"
-                  onClick={() => window.alert("Voce clicou")}
-                >
-                  Modulos de Acesso
-                </Button>
-              </MenuItem>
-              <MenuItem onClick={popupState.close}>
-                <Button
-                  variant="outlined"
-                  color="primary"
-                  onClick={() => window.alert("Voce clicou")}
-                >
-                  Telas do Sistema
-                </Button>
-              </MenuItem>
-              <MenuItem onClick={popupState.close}>
-                <Button
-                  variant="outlined"
-                  color="primary"
-                  onClick={() => window.alert("Voce clicou")}
-                >
-                  Dispositivos
-                </Button>
-              </MenuItem>
+              <MenuItem onClick={popupState.close}>Usuários</MenuItem>
+              <MenuItem onClick={popupState.close}>Grupos de Acesso</MenuItem>
+              <MenuItem onClick={popupState.close}>Modulos de Acesso</MenuItem>
+              <MenuItem onClick={popupState.close}>Telas do Sistema</MenuItem>
+              <MenuItem onClick={popupState.close}>Dispositivos</MenuItem>
             </Menu>
           </>
         )}
       </PopupState>
-      <ListItemText primary="Controle de Acesso" />
+      <ListItemText color=" primary" primary="Controle de Acesso" />
     </ListItem>
     <ListItem>
       <PopupState variant="popper">
         {(popupState) => (
           <>
-            <IconButton {...bindTrigger(popupState)}>
+            <IconButton {...bindTrigger(popupState)} color="primary">
               <ShoppingCartIcon />
             </IconButton>
             <Menu {...bindMenu(popupState)}>
               <MenuItem onClick={popupState.close}>
-                <Button
-                  variant="outlined"
-                  color="primary"
-                  onClick={() => window.alert("Voce clicou")}
-                >
-                  Pedidos do Ecommerce
-                </Button>
+                Pedidos do Ecommerce
               </MenuItem>
               <MenuItem onClick={popupState.close}>
-                <Button
-                  variant="outlined"
-                  color="primary"
-                  onClick={() => window.alert("Voce clicou")}
-                >
-                  Clientes do Ecommerce
-                </Button>
+                Clientes do Ecommerce
+              </MenuItem>
+              <MenuItem onClick={popupState.close}>Produtos</MenuItem>
+              <MenuItem onClick={popupState.close}>Fotos dos Produtos</MenuItem>
+              <MenuItem onClick={popupState.close}>Seções de Produtos</MenuItem>
+              <MenuItem onClick={popupState.close}>Produtos Similares</MenuItem>
+              <MenuItem>Produtos Correlacionados</MenuItem>
+              <MenuItem onClick={popupState.close}>Slides</MenuItem>
+              <MenuItem onClick={popupState.close}>Marcas de Produtos</MenuItem>
+              <MenuItem onClick={popupState.close}>
+                Depoimentos de Clientes
               </MenuItem>
               <MenuItem onClick={popupState.close}>
-                <Button
-                  variant="outlined"
-                  color="primary"
-                  onClick={() => window.alert("Voce clicou")}
-                >
-                  Produtos
-                </Button>
+                Paginas Informativas
               </MenuItem>
-              <MenuItem onClick={popupState.close}>
-                <Button
-                  variant="outlined"
-                  color="primary"
-                  onClick={() => window.alert("Voce clicou")}
-                >
-                  Fotos dos Produtos
-                </Button>
-              </MenuItem>
-              <MenuItem onClick={popupState.close}>
-                <Button
-                  variant="outlined"
-                  color="primary"
-                  onClick={() => window.alert("Voce clicou")}
-                >
-                  Seções de Produtos
-                </Button>
-              </MenuItem>
-              <MenuItem onClick={popupState.close}>
-                <Button
-                  variant="outlined"
-                  color="primary"
-                  onClick={() => window.alert("Voce clicou")}
-                >
-                  Produtos Similares
-                </Button>
-              </MenuItem>
-              <MenuItem>
-                <Button
-                  variant="outlined"
-                  color="primary"
-                  onClick={() => window.alert("Voce clicou")}
-                >
-                  Produtos Correlacionados
-                </Button>
-              </MenuItem>
-              <MenuItem onClick={popupState.close}>
-                <Button
-                  variant="outlined"
-                  color="primary"
-                  onClick={() => window.alert("Voce clicou")}
-                >
-                  Slides
-                </Button>
-              </MenuItem>
-              <MenuItem onClick={popupState.close}>
-                <Button
-                  variant="outlined"
-                  color="primary"
-                  onClick={() => window.alert("Voce clicou")}
-                >
-                  Marcas de Produtos
-                </Button>
-              </MenuItem>
-              <MenuItem onClick={popupState.close}>
-                <Button
-                  variant="outlined"
-                  color="primary"
-                  onClick={() => window.alert("Voce clicou")}
-                >
-                  Depoimentos de Clientes
-                </Button>
-              </MenuItem>
-              <MenuItem onClick={popupState.close}>
-                <Button
-                  variant="outlined"
-                  color="primary"
-                  onClick={() => window.alert("Voce clicou")}
-                >
-                  Paginas Informativas
-                </Button>
-              </MenuItem>
-              <MenuItem onClick={popupState.close}>
-                <Button
-                  variant="outlined"
-                  color="primary"
-                  onClick={() => window.alert("Voce clicou")}
-                >
-                  Artigos do Blog
-                </Button>
-              </MenuItem>
-              <MenuItem onClick={popupState.close}>
-                <Button
-                  variant="outlined"
-                  color="primary"
-                  onClick={() => window.alert("Voce clicou")}
-                >
-                  Cupons de Desconto
-                </Button>
-              </MenuItem>
-              <MenuItem onClick={popupState.close}>
-                <Button
-                  variant="outlined"
-                  color="primary"
-                  onClick={() => window.alert("Voce clicou")}
-                >
-                  Estoques
-                </Button>
-              </MenuItem>
-              <MenuItem onClick={popupState.close}>
-                <Button
-                  variant="outlined"
-                  color="primary"
-                  onClick={() => window.alert("Voce clicou")}
-                >
-                  Tabela de Preços
-                </Button>
-              </MenuItem>
-              <MenuItem onClick={popupState.close}>
-                <Button
-                  variant="outlined"
-                  color="primary"
-                  onClick={() => window.alert("Voce clicou")}
-                >
-                  Taxas De Cartão
-                </Button>
-              </MenuItem>
+              <MenuItem onClick={popupState.close}>Artigos do Blog</MenuItem>
+              <MenuItem onClick={popupState.close}>Cupons de Desconto</MenuItem>
+              <MenuItem onClick={popupState.close}>Estoques</MenuItem>
+              <MenuItem onClick={popupState.close}>Tabela de Preços</MenuItem>
+              <MenuItem onClick={popupState.close}>Taxas De Cartão</MenuItem>
             </Menu>
           </>
         )}
@@ -242,29 +77,12 @@ export const mainListItems = (
       <PopupState variant="popper">
         {(popupState) => (
           <>
-            <IconButton {...bindTrigger(popupState)}>
+            <IconButton {...bindTrigger(popupState)} color="primary">
               <SettingIcon />
             </IconButton>
             <Menu {...bindMenu(popupState)}>
-              <MenuItem onClick={popupState.close}>
-                <Button
-                  variant="outlined"
-                  color="primary"
-                  onClick={() => window.alert("Voce clicou")}
-                >
-                  Empresas
-                </Button>
-              </MenuItem>
-              <MenuItem onClick={popupState.close}>
-                {" "}
-                <Button
-                  variant="outlined"
-                  color="primary"
-                  onClick={() => window.alert("Voce clicou")}
-                >
-                  Parâmetros
-                </Button>
-              </MenuItem>
+              <MenuItem onClick={popupState.close}>Empresas</MenuItem>
+              <MenuItem onClick={popupState.close}> Parâmetros</MenuItem>
             </Menu>
           </>
         )}
