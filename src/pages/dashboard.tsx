@@ -1,38 +1,47 @@
 import React from "react";
 import clsx from "clsx";
-import { makeStyles } from "@material-ui/core/styles";
-import CssBaseline from "@material-ui/core/CssBaseline";
-import Drawer from "@material-ui/core/Drawer";
-import Box from "@material-ui/core/Box";
-import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
-import List from "@material-ui/core/List";
-import Typography from "@material-ui/core/Typography";
-import Divider from "@material-ui/core/Divider";
-import IconButton from "@material-ui/core/IconButton";
-import Badge from "@material-ui/core/Badge";
-import Container from "@material-ui/core/Container";
-import Grid from "@material-ui/core/Grid";
-import Paper from "@material-ui/core/Paper";
-import Link from "@material-ui/core/Link";
+import {
+  makeStyles,
+  CssBaseline,
+  Drawer,
+  Box,
+  AppBar,
+  Toolbar,
+  List,
+  Typography,
+  Divider,
+  IconButton,
+  Badge,
+  Container,
+  Grid,
+  Paper,
+  Link,
+  Menu,
+  MenuItem,
+  Avatar,
+} from "@material-ui/core";
+
 import MenuIcon from "@material-ui/icons/Menu";
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
-import NotificationsIcon from "@material-ui/icons/Notifications";
 import { mainListItems } from "../components/listItems";
 import Chart from "../components/Chart";
 import Deposits from "../components/Deposit";
 import Orders from "../components/Order";
 import Router from "next/router";
+import {
+  usePopupState,
+  bindTrigger,
+  bindMenu,
+} from "material-ui-popup-state/hooks";
 
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
-      {"Feito com 💙    © "}
+      {" © Feito com 💙 por "}
       <Link color="inherit" href="https://crisler.tech/">
-        Crisler WIntler
-      </Link>{" "}
+        Crisler Wintler{" "}
+      </Link>
       {new Date().getFullYear()}
-      {"."}
     </Typography>
   );
 }
@@ -121,6 +130,7 @@ const useStyles = makeStyles((theme) => ({
 export default function Dashboard() {
   const classes = useStyles();
   const [open, setOpen] = React.useState(true);
+  const popupState = usePopupState({ variant: "popover", popupId: "demoMenu" });
   const handleDrawerOpen = () => {
     setOpen(true);
   };
@@ -158,11 +168,20 @@ export default function Dashboard() {
           >
             Dashboard
           </Typography>
-          <IconButton color="inherit" onClick={() => Router.push("/")}>
+          <IconButton color="inherit" {...bindTrigger(popupState)}>
             <Badge badgeContent={4} color="secondary">
-              <NotificationsIcon />
+              <Avatar
+                alt="Remy Sharp"
+                src="https://github.com/crislerwin.png"
+              />
             </Badge>
           </IconButton>
+
+          <Menu {...bindMenu(popupState)}>
+            <MenuItem onClick={popupState.close}>Notificações</MenuItem>
+            <MenuItem onClick={popupState.close}>Usuário</MenuItem>
+            <MenuItem onClick={() => Router.push("/")}>Sair</MenuItem>
+          </Menu>
         </Toolbar>
       </AppBar>
       <Drawer
