@@ -171,7 +171,7 @@ export default function Dashboard() {
           <IconButton color="inherit" {...bindTrigger(popupState)}>
             <Badge badgeContent={4} color="secondary">
               <Avatar
-                alt="Remy Sharp"
+                alt="Crisler Wintler"
                 src="https://github.com/crislerwin.png"
               />
             </Badge>

@@ -91,27 +91,3 @@ export const mainListItems = (
     </ListItem>
   </>
 );
-
-// export const secondaryListItems = (
-//   <div>
-//     <ListSubheader inset>Relatórios</ListSubheader>
-//     <ListItem button>
-//       <ListItemIcon>
-//         <AssignmentIcon />
-//       </ListItemIcon>
-//       <ListItemText primary="Mês atual" />
-//     </ListItem>
-//     <ListItem button>
-//       <ListItemIcon>
-//         <AssignmentIcon />
-//       </ListItemIcon>
-//       <ListItemText primary="Último quarto" />
-//     </ListItem>
-//     <ListItem button>
-//       <ListItemIcon>
-//         <AssignmentIcon />
-//       </ListItemIcon>
-//       <ListItemText primary="Final de ano" />
-//     </ListItem>
-//   </div>
-// );
