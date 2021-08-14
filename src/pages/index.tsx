@@ -81,7 +81,7 @@ const Auth: React.FC<{}> = () => {
             <LockOutlinedIcon />
           </Avatar>
           <Typography component="h1" variant="h5">
-            Entrar
+            Sign in
           </Typography>
           <form
             className={classes.form}

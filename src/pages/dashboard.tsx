@@ -19,32 +19,28 @@ import {
   Menu,
   MenuItem,
   Avatar,
+  ListItem,
+  ListItemText,
 } from "@material-ui/core";
-
+import ListItemIcon from "@material-ui/core/ListItemIcon";
 import MenuIcon from "@material-ui/icons/Menu";
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
-import { mainListItems } from "../components/listItems";
+import Copyright from "../components/Copyright";
 import Chart from "../components/Chart";
 import Deposits from "../components/Deposit";
 import Orders from "../components/Order";
 import Router from "next/router";
+import DashboardIcon from "@material-ui/icons/Dashboard";
+import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
+import PeopleIcon from "@material-ui/icons/People";
+import BarChartIcon from "@material-ui/icons/BarChart";
+import LayersIcon from "@material-ui/icons/Layers";
 import {
   usePopupState,
   bindTrigger,
   bindMenu,
 } from "material-ui-popup-state/hooks";
-
-function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {" © Feito com 💙 por "}
-      <Link color="inherit" href="https://crisler.tech/">
-        Crisler Wintler{" "}
-      </Link>
-      {new Date().getFullYear()}
-    </Typography>
-  );
-}
+import { SidebarList } from "../components/listItems";
 
 const drawerWidth = 240;
 
@@ -141,7 +137,6 @@ export default function Dashboard() {
 
   return (
     <div className={classes.root}>
-      <CssBaseline />
       <AppBar
         position="absolute"
         className={clsx(classes.appBar, open && classes.appBarShift)}
@@ -166,7 +161,7 @@ export default function Dashboard() {
             noWrap
             className={classes.title}
           >
-            Dashboard
+            {/* Some title Here */}
           </Typography>
           <IconButton color="inherit" {...bindTrigger(popupState)}>
             <Badge badgeContent={4} color="secondary">
@@ -197,9 +192,7 @@ export default function Dashboard() {
           </IconButton>
         </div>
         <Divider />
-        <List>{mainListItems}</List>
-        {/* <Divider />
-        <List>{secondaryListItems}</List> */}
+        <SidebarList />
       </Drawer>
       <main className={classes.content}>
         <div className={classes.appBarSpacer} />

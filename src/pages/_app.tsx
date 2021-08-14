@@ -1,12 +1,13 @@
 import Head from "next/head";
 import { MuiThemeProvider, CssBaseline } from "@material-ui/core";
 import type { AppProps } from "next/app";
-import { theme } from "../theme";
+import { mainTheme } from "../theme";
 import { Fragment, useEffect } from "react";
 
 import { AuthProvider } from "../contexts/AuthContext";
 
 function MyApp({ Component, pageProps }: AppProps) {
+  const theme = mainTheme("light");
   useEffect(() => {
     // Remove the server-side injected CSS.
     const jssStyles = document.querySelector("#jss-server-side");
@@ -25,6 +26,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="icon" href="/favicon.ico" />
         <title>Material-Next Admin</title>
       </Head>
+
       <MuiThemeProvider theme={theme}>
         <CssBaseline />
         <AuthProvider>

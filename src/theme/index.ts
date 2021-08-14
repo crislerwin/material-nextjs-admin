@@ -1,8 +1,8 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import { PaletteType } from "@material-ui/core";
 import { createTheme } from "@material-ui/core/styles";
-import { useState } from "react";
-const mainTheme = (type: PaletteType) =>
+
+export const mainTheme = (type: PaletteType) =>
   createTheme({
     palette: {
       type,
@@ -20,5 +20,3 @@ const mainTheme = (type: PaletteType) =>
       },
     },
   });
-
-export const theme = mainTheme("dark");
